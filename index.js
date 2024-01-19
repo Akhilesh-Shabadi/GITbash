@@ -292,7 +292,7 @@
 
 // }
 
-var a=12;
+// var a=12;
 
 // function test() {
 //     // console.log(a);
@@ -312,5 +312,5 @@ var a=12;
 // console.log(a);
 
 // array
-arr=[13,"hello",null,true,10n,Symbol,undefined,()=>console.log("i am fun"),["i am a array data"]]
-arr
+// arr=[13,"hello",null,true,10n,Symbol,undefined,()=>console.log("i am fun"),["i am a array data"]]
+// arr
