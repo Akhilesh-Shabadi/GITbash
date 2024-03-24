@@ -176,16 +176,40 @@
 //     console.log("not happy number");
 // }
 
-function ishappy(no) {
-    let sum=0;
-    while (no>0) {
-        let rem=parseInt(no%10);
-        sum+=rem*rem;
-        no=parseInt(no/10);
-    }    
-    if (sum===1||sum===7) {
-        return true;
-    }
-    return ishappy(sum);
-}
-console.log(ishappy(14));
+// function ishappy(no) {
+//     let sum=0;
+//     while (no>0) {
+//         let rem=parseInt(no%10);
+//         sum+=rem*rem;
+//         no=parseInt(no/10);
+//     }    
+//     if (sum===1||sum===7) {
+//         return true;
+//     }
+//     return ishappy(sum);
+// }
+// console.log(ishappy(14));
+
+// function strong(no) {
+//     // let no=145;
+//     let sum=0;
+//     let copy=no;
+//     while (no!=0) {
+//         let rem=no%10;
+//         let fact=1;
+//        for (let index =rem; index>=1; index++) {
+//             fact=fact*index;
+//         }
+//         sum+=fact;
+//         no=no/10;
+//     }
+//     console.log(sum);
+//     // return sum;
+//     if (copy===sum) {
+//         console.log("Strong number");
+//     } else {
+//         console.log("Not a Strong number");
+//     }
+//     // return sum;
+// }
+// console.log(strong(145));
